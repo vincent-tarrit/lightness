@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "src/index.js",
-    "build": "parcel build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,11 @@
     "url": "https://github.com/vincent-tarrit/lightness/issues"
   },
   "homepage": "https://github.com/vincent-tarrit/lightness#readme",
-  "browserslist": "> 0.25%, not dead"
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "color-convert": "^2.0.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }
